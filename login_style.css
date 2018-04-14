@@ -1,0 +1,132 @@
+body
+{
+	background-color:#666666;
+}
+
+input::-webkit-input-placeholder 
+{
+   color:#6A6A6A;
+   position:relative;
+   padding-left:0;
+   -webkit-transition: font-size 0.4s;
+   transition: font-size 0.4s;
+}
+
+input:hover::-webkit-input-placeholder
+{
+	 font-size:20px;
+}
+
+#regno
+{
+	text-align:left;
+	font-family: 'Montserrat', sans-serif;
+	border: 0;
+	outline: 0;
+	font-size:15px;
+	margin-top:30px;
+	height:7%;
+	padding:10px;
+	border-bottom: 2px solid #B1AEAE;
+	width:60%;
+	text-transform:uppercase;
+}
+#regno:focus
+{
+	border-bottom:solid;
+	font-size:20px;
+	border-bottom-color:green;
+}
+#regno:after
+{
+	font-size:20px;
+}
+
+#password
+{
+	text-align:left;
+	font-family: 'Montserrat', sans-serif;
+	border: 0;
+	outline: 0;
+	font-size:15px;
+	margin-top:30px;
+	height:7%;
+	padding:10px;
+	border-bottom: 2px solid #B1AEAE;
+	width:60%;
+}
+#password:focus
+{
+	border-bottom:solid;
+	font-size:20px;
+	border-bottom-color:green;
+}
+#password:after
+{
+	font-size:20px;
+}
+
+button#submit
+{
+	border:2px solid;
+	color:white;
+	background-color:#004d00;
+	font-size:20px;
+	padding:4px;
+	border-radius:8px;
+	width:35%;
+	height:45px;
+	border-color:#000000;
+	margin-top:2%;
+	transition:all 0.5s;
+	cursor:pointer;
+}
+.button span 
+{
+  cursor:pointer;
+  display:inline-block;
+  position:relative;
+  transition:0.5s;
+}
+
+.button span:after 
+{
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top:0;
+  right:-20px;
+  transition:0.5s;
+}
+
+.button:hover span 
+{
+  padding-right:25px;
+  color:#00a3cc;
+}
+
+.button:hover span:after 
+{
+  opacity:1;
+  color:#ffffff;
+  right:0;
+}
+
+.resize_fit_center 
+{
+	border-style:none;
+	border-top:none;
+	border-bottom:none;
+    max-width:50%;
+    max-height:110%;
+	background-color:white;
+	-webkit-box-shadow: 0px 4px 24px 8px rgba(0,0,0,0.88);
+	-moz-box-shadow: 0px 4px 24px 8px rgba(0,0,0,0.88);
+	box-shadow: 0px 4px 24px 8px rgba(0,0,0,0.88);
+	position:relative;
+	top:0;
+    top:5%;
+    bottom: 0;
+    left: 0;
+    right: 0;	
+}

@@ -1,0 +1,35 @@
+<html>
+<head>
+<title>Login</title>
+<meta name="author" content="Saket Jajoo">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+<link rel="stylesheet" href="login_style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="HandheldFriendly" content="true">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+</head>
+
+<body onload="geton()">
+	<form action="login_auth.php" method="POST">
+	<center>
+	</br></br><h1><u>LOGIN</u></h1></br><br>
+		<div id="inputs" class="resize_fit_center">
+			<input id="regno" placeholder="REGISTRATION NUMBER" type="text" name="regno" autocomplete="off" required></input></br>
+			<input id="password" placeholder="PASSWORD" type="password" name="password" autocomplete="off" required></input></br></br></br>
+			<center><button type="submit" value="submit" name="submit" id="submit" class="button" onclick="LOGIN()"><span>SUBMIT</span></button></center></br>
+		</div>
+	</center>
+	</form>
+
+</body>
+
+<script>
+function geton()
+{
+	document.getElementById("regno").focus();
+}
+</script>
+
+</html>

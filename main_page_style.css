@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+@import url('https://fonts.googleapis.com/css?family=Rokkitt');
+@import url('https://fonts.googleapis.com/css?family=Kanit');
+
+
+body
+{
+	background-color:#e6e6e6;
+}
+
+div#head
+{
+	background-color:grey;
+	position:relative;
+	margin-top:0;
+	height:auto;
+	font-family: 'Montserrat', sans-serif;
+	font-size:25px;
+	letter-spacing:1px;
+}
+
+div#hello
+{
+	border-bottom:2px solid black;
+	width:70%;
+	height:auto;
+	font-size:30px;
+	-webkit-box-shadow: 0px 4px 0px 0px rgba(0,0,0,0.88);
+	-moz-box-shadow: 0px 4px 0px 0px rgba(0,0,0,0.88);
+}
+
+span#regno
+{
+	text-transform:uppercase;
+}
+
+div#menu
+{
+	position:relative;
+	margin-top:0;
+	top:0;
+}
+
+li
+{
+	display:inline-block;
+	cursor:pointer;
+	margin-top:4px;
+	margin-bottom:4px;
+	margin-left:6px;
+	font-family: 'Lobster', cursive;
+	margin-right:6px;
+	background-color:#a6a6a6;
+	border-bottom:4px solid black;
+	border-top:4px solid black;
+	height:auto;
+}
+
+a    
+{
+	text-decoration:none;
+	display:inline-block;
+	font-size:17px;
+	font-family: 'Lobster', cursive;
+	padding:17px;
+	cursor:pointer;
+	background-color:#a6a6a6;
+	height:auto;
+	color:black;
+} 
+a:hover   
+{
+	text-decoration:underline;
+	font-weight:bold;
+	background-color:#737373;
+	color:black;
+} 
+
+div#apply
+{
+	background-color:#bfbfbf;
+	height:auto;
+}
+
+div#apply_head,div#view_remaining,div#reimburse,div#view_funds,div#logout,div#uploadqr_head
+{
+	font-family: 'Lobster', cursive;
+	font-size:25px;
+	letter-spacing:2px;
+}
+
+input#regno,input#name,input#amount,input#reason,input#pending
+{
+	text-align:left;
+	font-family: 'Montserrat', sans-serif;
+	font-size:17px;
+	margin-top:50px;
+	padding:15px;
+	border: 0;
+	outline: 0;
+	border-bottom: 2px solid #B1AEAE;
+	height:auto;
+	width:50%;
+}
+input#regno:focus,input#name:focus,input#amount:focus,input#reason:focus,input#pending:focus
+{
+	border-bottom:solid;
+	font-size:20px;
+	border-bottom-color:green;
+}
+input#regno:after,input#name:after,input#amount:after,input#reason:after,input#pending:after
+{
+	font-size:22px;
+}
+
+button#submit
+{
+	border:none;
+	border-bottom:2px solid black;
+	color:black;
+	background-color:#8c8c8c;
+	font-size:30px;
+	font-family: 'Rokkitt', serif;
+	padding:4px;
+	width:15%;
+	height:auto;
+	margin-top:5%;
+	transition:all 0.5s;
+	cursor:pointer;
+}
+
+.resize_fit_center 
+{
+	border-style:none;
+	border-top:none;
+	border-bottom:none;
+    width:90%;
+    height:auto;
+	background-color:white;
+	-webkit-box-shadow: 0px 4px 10px 4px rgba(0,0,0,0.88);
+	-moz-box-shadow: 0px 4px 24px 8px rgba(0,0,0,0.88);
+	box-shadow: 0px 4px 22px 8px rgba(0,0,0,0.88);
+	padding:0px;
+    margin: auto;	
+}
+
+div#view_remaining
+{
+	background-color:#bfbfbf;
+	height:70%;
+}
+
+input#view_remaining_submit
+{
+	background-color:#8c8c8c;
+	height:22%;
+	width:auto;
+	font-size:25px;
+	font-family: 'Kanit', sans-serif;
+	border:2px solid black;
+	-webkit-box-shadow: 0px 4px 10px 4px rgba(0,0,0,0.88);
+	-moz-box-shadow: 0px 4px 24px 8px rgba(0,0,0,0.88);
+	box-shadow: 0px 4px 22px 8px rgba(0,0,0,0.88);
+	padding:0px;
+    margin: auto;	
+	padding:10px;
+	cursor:pointer;
+}
+
+div#reimburse
+{
+	background-color:#bfbfbf;
+	height:70%;
+}
+
+input#reimb_regno
+{
+	text-align:left;
+	font-family: 'Montserrat', sans-serif;
+	font-size:17px;
+	margin-top:50px;
+	padding:15px;
+	border: 0;
+	outline: 0;
+	border-bottom: 2px solid black;
+	height:auto;
+	width:50%;
+}
+
+input#reimburse_submit
+{
+	background-color:#8c8c8c;
+	height:auto;
+	width:auto;
+	font-size:25px;
+	font-family: 'Kanit', sans-serif;
+	border:2px solid black;
+	-webkit-box-shadow: 0px 4px 10px 4px rgba(0,0,0,0.88);
+	-moz-box-shadow: 0px 4px 24px 8px rgba(0,0,0,0.88);
+	box-shadow: 0px 4px 22px 8px rgba(0,0,0,0.88);
+	padding:0px;
+    margin: auto;	
+	padding:10px;
+	cursor:pointer;
+}
+
+div#view_funds
+{
+	background-color:#bfbfbf;
+	height:70%;
+}
+
+input#view_funds_submit
+{
+	background-color:#8c8c8c;
+	height:auto;
+	width:auto;
+	font-size:25px;
+	font-family: 'Kanit', sans-serif;
+	border:2px solid black;
+	-webkit-box-shadow: 0px 4px 10px 4px rgba(0,0,0,0.88);
+	-moz-box-shadow: 0px 4px 24px 8px rgba(0,0,0,0.88);
+	box-shadow: 0px 4px 22px 8px rgba(0,0,0,0.88);
+	padding:0px;
+    margin: auto;	
+	padding:10px;
+	cursor:pointer;
+}
+
+div#uploadqr
+{
+	background-color:#bfbfbf;
+	height:100%;
+}
+
+div#logout
+{
+	background-color:#bfbfbf;
+	height:auto;
+}
+
+input#logout_submit
+{
+	background-color:#8c8c8c;
+	height:auto;
+	width:auto;
+	font-size:20px;
+	border:none;
+	font-family: 'Kanit', sans-serif;
+	border-bottom:2px solid black;
+	padding:0px;
+    margin: auto;	
+	padding:10px;
+	cursor:pointer;
+}
+
+input#logout_submit:hover
+{
+	transition:all ease 1s;
+	background-color:#8c8c8c;
+	height:auto;
+	width:auto;
+	font-size:20px;
+	border:none;
+	font-family: 'Kanit', sans-serif;
+	border:2px solid black;
+	padding:0px;
+    margin: auto;	
+	padding:10px;
+	cursor:pointer;
+}
+
+input::-webkit-input-placeholder 
+{
+   color:#6A6A6A;
+   position:relative;
+   padding-left:0;
+   -webkit-transition: font-size 0.6s;
+   transition: font-size 0.6s;
+}
+
+input:hover::-webkit-input-placeholder
+{
+	 font-size:20px;
+}
+
+footer
+{
+	background-color:black;
+	color:white;
+	height:10%;
+	font-size:15px;
+}
+
+span#copyrights
+{
+	position:absolute;
+	right:20px;
+}

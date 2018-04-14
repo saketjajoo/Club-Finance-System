@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+body
+{
+	background-color:pink;
+	font-family: 'Montserrat', sans-serif;
+}
+
+div#add
+{
+	font-size:25px;
+}
+
+input#sub
+{
+	background-color:grey;
+	padding:10px;
+	cursor:pointer;
+	font-size:18px;
+	border:none;
+	border-bottom:2px solid black;
+}
+
+input#sub:hover
+{
+	transition:all ease 0.3s;
+	background-color:grey;
+	padding:10px;
+	cursor:pointer;
+	font-size:18px;
+	border:2px solid black;
+}
